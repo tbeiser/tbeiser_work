@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+#container{
+	text-align: center;
+	margin: 30px auto;
+	color: white;
+}
+#name{
+	color:#A779EB;
+	font-size: 22px;
+	margin-bottom: 8px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+}
+#info
+{
+	margin: auto;
+	padding:20px 55px;
+	line-height: 20px;
+	max-width: 750px;
+}
+ul{
+	list-style: none;
+  	margin: 30px auto;
+  	-webkit-padding-start: 0px;
+}
+#info a{
+  list-style: none;
+  color:#A779EB;
+}
+#info a:hover{
+	color:#558A37;
+}
+.list{
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+#contact{
+	color:#62839E;
+}
+li.contact{
+	display: inline;
+	padding:0 10px;
+	-webkit-padding-start: 0px;
+}
+.contact a{
+  list-style: none;
+  text-decoration: none;
+  color:#62839E;
+}
+.contact a:hover{
+	color: rgba(98,131,158,0.5);
+}
+@media screen and (max-width:550px) {
+li.contact{
+	display: block;
+}

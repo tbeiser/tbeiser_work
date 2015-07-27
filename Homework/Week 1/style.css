@@ -1,0 +1,56 @@
+html, body {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	margin: 20px;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#contact{
+	color:#91F2D7;
+	-webkit-padding-start: 0px;
+	margin: -20px 0 30px 0;
+}
+li.contact{
+	display: inline;
+	padding:0 10px;
+	-webkit-padding-start: 0px;
+}
+.contact a{
+  list-style: none;
+  text-decoration: none;
+  color:#91F2D7;
+}
+.contact a:hover{
+	color: rgba(145,242,218,0.5);
+}
+.container{
+	margin-bottom: 30px;
+}
+ul{
+	margin-top: 8px;
+	color: white;
+}
+ol{
+	margin-top: 8px;
+	color: white;
+}
+.computer{
+	color: #91CBF2;
+}
+.workex{
+	color: #A991F2;
+}
+.education{
+	color: #F291E0;
+}
+.info{
+	color: #F29191;
+}
+@media screen and (max-width:600px) {
+li.contact{
+	display: block;
+
+}
