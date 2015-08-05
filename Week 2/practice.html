@@ -1,0 +1,85 @@
+<head>
+	<style type="text/css">
+
+		body {
+
+			background-color: white;
+			padding: 0 !important;
+			margin: 0 !important;
+
+		}
+
+		.clearfix:after {
+		   content: " "; /* Older browser do not support empty content */
+		   visibility: hidden;
+		   display: block;
+		   height: 10;
+		   clear: both;
+		}
+
+		* {
+
+			/*background-color: rgb(33, 33, 33);*/
+			/*margin: 5px;*/
+			/*color: white;*/
+
+		}
+
+		header{
+			padding: 20px;
+			background-color: gray;
+			margin-bottom: 20px;
+		}
+
+		section#content{
+			width: 80%;
+			background-color: purple;
+			float: left;
+			color: white;
+			min-height: 200px;
+		}
+
+		section#rightRail{
+			width: 19%;
+			background-color: blue;
+			color: white;
+			float: right;
+			min-height: 200px;
+		}
+
+		footer{
+			padding: 20px;
+			background-color: red;
+			margin-top: 20px;
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<header>
+		<h1>My Site</h1>
+	</header>	
+
+	<main class="clearfix">
+
+		<section id="content">
+			<p>Artcile goes here!</p>
+		</section>
+
+		<section id="rightRail">
+			<p>Ads and stuff go over here</p>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>Copyright information goes here</p>
+	</footer>	
+
+</body>
+
+
+
+

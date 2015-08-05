@@ -1,0 +1,201 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+  text-align: center; 
+  padding: 50px 30px 90px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+header h1{ /*relaxer*/
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+header h2{ /*get peace of mind*/
+  font-size: 24px;
+  font-weight: 600;
+  margin: 40px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+header button{ 
+  background-color: rgb(249, 228, 46);
+  color: rgb(6, 48, 72);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid rgb(6, 48, 72);
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+section{
+  padding: 25px 30px;
+}
+
+section h2{ /*benefits*/
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(3, 48, 72);
+}
+
+section p.benefitsP{ /*p_benefits*/
+  font-size: 13px;
+  font-weight: 300;
+  color: rgb(125, 122, 123);
+  margin: 10px 0;
+  width: 65%;
+}
+
+ul{
+  list-style-type: disc;
+  color: rgb(3, 48, 72);
+  padding: 10px 40px;
+}
+
+li{
+  padding: 2px 0;
+}
+
+#backgroundQuote{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+section p.quote{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  padding: 15px 60px;
+}
+
+span{
+  font-weight: 600;
+  font-style: normal;
+}
+
+#signUp{
+  background-color: rgb(249, 228, 46);
+  text-align: center;
+}
+
+section button{
+  background-color: rgb(4, 48, 73);
+  color: rgb(241, 240, 242);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid rgb(6, 48, 72);
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+#socialMedia{
+  background-color: rgb(18, 18, 17);
+  text-align: center;
+}
+
+section h1{
+  color: rgb(249, 228, 46);
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 15px; 
+}
+
+#twitter{
+  width: 21.5px;
+  height: 16.5px;
+  margin-right: 10px;
+}
+
+#facebook{
+  width: 8.5px;
+  height: 18.5px;
+  margin-left: 10px;
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 600;
+  color: rgb(241, 239, 238);
+  padding-top: 25px;
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
